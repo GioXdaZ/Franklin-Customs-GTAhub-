@@ -1,0 +1,86 @@
+:root {
+    --color-white: #f0f0f0;
+    --color-gray: rgb(150, 151, 151);
+    --color-darkgray: rgb(51, 51, 51);
+    --color-black: #000000;
+  }
+
+
+/*
+font-family: 'Pincoyablack', sans-serif;
+*/
+
+body {
+    background-color: var(--color-gray);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pincoyablack', sans-serif;
+    font-size: 4rem;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    margin-top: -40px;
+}
+
+h3, h4 {
+    font-family: monospace;
+    font-size: 1.4rem;
+    color: var(--color-darkgray);
+}
+
+
+a {
+    font-family: monospace;
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--color-black);
+    box-shadow: 0 2px 0 var(--color-gray);
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.nav-list a:hover {
+    background: var(--color-gray);
+}
+
+.numbers {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+}
+
+.numbers h3 {
+    font-size: 2rem;
+}
+
+.mail a {
+    font-size: 2rem;
+}
+
+
