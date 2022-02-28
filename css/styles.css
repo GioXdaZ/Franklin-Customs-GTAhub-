@@ -162,3 +162,19 @@ h3 {
     
     font-size: 2rem;
 }
+
+.localitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.localitation .adorno {
+  width: 50%;
+}
+.adorno {
+  border: var(--color-darkgray) 10px solid;
+  border-radius: 25px;
+}
